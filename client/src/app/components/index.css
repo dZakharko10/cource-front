@@ -1,0 +1,89 @@
+.modal__button {
+    width: 170px;
+    background-color: #ffdc00;
+    color: #2d5ba4;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal__button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition-duration: 300ms;
+}
+
+.modal__close {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+
+.modal__close__button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modal__close__button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition-duration: 300ms;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    gap: 100px;
+}
+
+.modal__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: max-content;
+    padding: 5px;
+}
+
+.modal__container__element{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modal__container__element label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.modal__container__element label input {
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: 2px #2d5ba4 dashed;
+    padding-left: 20px;
+}
+
+.modal__container__element label input:focus {
+    outline: none;
+    background-color: transparent;
+}

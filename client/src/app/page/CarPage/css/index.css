@@ -1,0 +1,52 @@
+.car-page {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.car-page__img {
+    width: 500px;
+    height: 450px;
+}
+
+.car-page__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.car-page__container__el {
+    font-size: 30px;
+}
+
+.car-page__buttons {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px #2d5ba4 dashed;
+    height: max-content;
+    gap: 10px;
+}
+
+.car-page__buttons button {
+    width: 120px;
+    background-color: #ffdc00;
+    color: #2d5ba4;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.car-page__buttons button:hover {
+    scale: 1.1;
+    transition-duration: 300ms;
+    cursor: pointer;
+}

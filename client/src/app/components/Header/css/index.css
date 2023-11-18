@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2d5aa3;
+    background-color: #ffdc00;
+    font-size: 20px;
+}
+
+@media (max-width: 693px) {
+    .footer {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer {
+        font-size: 10px;
+    }
+}
